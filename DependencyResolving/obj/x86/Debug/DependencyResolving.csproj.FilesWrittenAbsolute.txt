@@ -1,0 +1,12 @@
+/home/plamen/Code/Points/DependencyResolving/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/plamen/Code/Points/DependencyResolving/bin/Debug/DependencyResolving.exe.mdb
+/home/plamen/Code/Points/DependencyResolving/bin/Debug/DependencyResolving.exe
+/home/plamen/Code/Points/DependencyResolving/obj/x86/Debug/DependencyResolving.exe
+/home/plamen/Code/Points/DependencyResolving/obj/x86/Debug/DependencyResolving.exe.mdb
+/home/plamen/Code/Points/DependencyResolving/bin/Debug/Newtonsoft.Json.dll
+/home/plamen/Code/HackBulgariaApplication/DependencyResolving/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/plamen/Code/HackBulgariaApplication/DependencyResolving/bin/Debug/DependencyResolving.exe.mdb
+/home/plamen/Code/HackBulgariaApplication/DependencyResolving/bin/Debug/DependencyResolving.exe
+/home/plamen/Code/HackBulgariaApplication/DependencyResolving/obj/x86/Debug/DependencyResolving.exe
+/home/plamen/Code/HackBulgariaApplication/DependencyResolving/obj/x86/Debug/DependencyResolving.exe.mdb
+/home/plamen/Code/HackBulgariaApplication/DependencyResolving/bin/Debug/Newtonsoft.Json.dll

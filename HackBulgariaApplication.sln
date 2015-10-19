@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordGame", "WordGame\WordGame.csproj", "{BFD5A934-2172-4E3A-B859-6BA9C657FBCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyResolving", "DependencyResolving\DependencyResolving.csproj", "{A09FA931-E652-4891-9A7B-FAB267F65BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Points", "Points\Points.csproj", "{F6DDBF7F-47CE-4358-9F65-FD807083A9AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A09FA931-E652-4891-9A7B-FAB267F65BBF}.Debug|x86.ActiveCfg = Debug|x86
+		{A09FA931-E652-4891-9A7B-FAB267F65BBF}.Debug|x86.Build.0 = Debug|x86
+		{A09FA931-E652-4891-9A7B-FAB267F65BBF}.Release|x86.ActiveCfg = Release|x86
+		{A09FA931-E652-4891-9A7B-FAB267F65BBF}.Release|x86.Build.0 = Release|x86
+		{BFD5A934-2172-4E3A-B859-6BA9C657FBCB}.Debug|x86.ActiveCfg = Debug|x86
+		{BFD5A934-2172-4E3A-B859-6BA9C657FBCB}.Debug|x86.Build.0 = Debug|x86
+		{BFD5A934-2172-4E3A-B859-6BA9C657FBCB}.Release|x86.ActiveCfg = Release|x86
+		{BFD5A934-2172-4E3A-B859-6BA9C657FBCB}.Release|x86.Build.0 = Release|x86
+		{F6DDBF7F-47CE-4358-9F65-FD807083A9AA}.Debug|x86.ActiveCfg = Debug|x86
+		{F6DDBF7F-47CE-4358-9F65-FD807083A9AA}.Debug|x86.Build.0 = Debug|x86
+		{F6DDBF7F-47CE-4358-9F65-FD807083A9AA}.Release|x86.ActiveCfg = Release|x86
+		{F6DDBF7F-47CE-4358-9F65-FD807083A9AA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Points\Points.csproj
+	EndGlobalSection
+EndGlobal

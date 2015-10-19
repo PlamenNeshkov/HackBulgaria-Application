@@ -1,0 +1,10 @@
+/home/plamen/Code/Points/WordGame/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/plamen/Code/Points/WordGame/bin/Debug/WordGame.exe.mdb
+/home/plamen/Code/Points/WordGame/bin/Debug/WordGame.exe
+/home/plamen/Code/Points/WordGame/obj/x86/Debug/WordGame.exe
+/home/plamen/Code/Points/WordGame/obj/x86/Debug/WordGame.exe.mdb
+/home/plamen/Code/HackBulgariaApplication/WordGame/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/plamen/Code/HackBulgariaApplication/WordGame/bin/Debug/WordGame.exe.mdb
+/home/plamen/Code/HackBulgariaApplication/WordGame/bin/Debug/WordGame.exe
+/home/plamen/Code/HackBulgariaApplication/WordGame/obj/x86/Debug/WordGame.exe
+/home/plamen/Code/HackBulgariaApplication/WordGame/obj/x86/Debug/WordGame.exe.mdb

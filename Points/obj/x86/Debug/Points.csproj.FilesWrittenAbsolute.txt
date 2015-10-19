@@ -1,0 +1,10 @@
+/home/plamen/Code/Points/Points/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/plamen/Code/Points/Points/bin/Debug/Points.exe.mdb
+/home/plamen/Code/Points/Points/bin/Debug/Points.exe
+/home/plamen/Code/Points/Points/obj/x86/Debug/Points.exe
+/home/plamen/Code/Points/Points/obj/x86/Debug/Points.exe.mdb
+/home/plamen/Code/HackBulgariaApplication/Points/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/plamen/Code/HackBulgariaApplication/Points/bin/Debug/Points.exe.mdb
+/home/plamen/Code/HackBulgariaApplication/Points/bin/Debug/Points.exe
+/home/plamen/Code/HackBulgariaApplication/Points/obj/x86/Debug/Points.exe
+/home/plamen/Code/HackBulgariaApplication/Points/obj/x86/Debug/Points.exe.mdb
