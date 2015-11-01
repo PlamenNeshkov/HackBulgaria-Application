@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace WordGame
 {
@@ -117,19 +120,55 @@ namespace WordGame
 	{
 		public static void Main(string[] args)
 		{
-			char[,] matrix = 
-			{
+			/*char[,] matrix = {
 				{ 'i', 'v', 'a', 'n' },
 				{ 'e', 'v', 'n', 'h' },
 				{ 'i', 'n', 'a', 'v' },
 				{ 'm', 'v', 'v', 'n' },
 				{ 'q', 'r', 'i', 't' }
-			};
+			};*/
+
+			Console.WriteLine("Input the dimensions of the table...");
+			Console.Write("Rows: ");
+			int rows = int.Parse(Console.ReadLine());
+			Console.Write("Cols: ");
+			int cols = int.Parse(Console.ReadLine());
+
+			Console.WriteLine("Input each row of the table with the elements separated by whitespace:");
+			char[,] matrix = ReadMatrix (rows, cols);
+
 			var ivanGame = new WordGame(matrix, "ivan");
 
 			ivanGame.TraverseTable();
 
 			Console.WriteLine(ivanGame.Occurences);
+		}
+
+		public static char[,] ReadMatrix(int rows, int cols)
+		{
+			char[,] matrix = new char[rows, cols];
+
+			for (int row = 0; row < rows; row++) 
+			{
+				string line = Console.ReadLine();
+				if (string.IsNullOrWhiteSpace(line)) 
+				{
+					throw new FormatException();
+				}
+				string[] lineElements = Regex.Split(line, @"\s+")
+					                   .Where (s => s != string.Empty).ToArray();
+
+				if (lineElements.Length != cols) 
+				{
+					throw new FormatException();
+				}
+				for (int col = 0; col < cols; col++) 
+				{
+					matrix [row, col] = lineElements[col][0];
+				}
+			}
+
+			return matrix;
 		}
 	}
 }
